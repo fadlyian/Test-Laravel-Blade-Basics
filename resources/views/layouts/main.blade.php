@@ -20,5 +20,10 @@
         <div class="font-sans text-gray-900 antialiased">
             @yield('content')
         </div>
+
+        <!-- Page Content -->
+        <main>
+            {{ $slot }}
+        </main>
     </body>
 </html>
